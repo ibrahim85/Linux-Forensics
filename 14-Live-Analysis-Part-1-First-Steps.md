@@ -1,6 +1,6 @@
 #### 14. Live Analysis Part 1: First Steps
 
-- [send-fileinfo.sh]()
+- [send-fileinfo.sh](https://github.com/Kan1shka9/Linux-Forensics/blob/master/14-Live-Analysis-Part-1-First-Steps.md#send-fileinfosh)
 - [send-history.sh](https://github.com/Kan1shka9/Linux-Forensics/blob/master/14-Live-Analysis-Part-1-First-Steps.md#send-historysh)
 - [send-logfiles.sh](https://github.com/Kan1shka9/Linux-Forensics/blob/master/14-Live-Analysis-Part-1-First-Steps.md#send-logfilessh)
 - [send-sha256sum.sh](https://github.com/Kan1shka9/Linux-Forensics/blob/master/14-Live-Analysis-Part-1-First-Steps.md#send-sha256sumsh)
