@@ -64,3 +64,5 @@ $ mount
 
 ![Image of 4deck](images/21/4.png)
 
+
+* Notice that both the drives when connected to the ```USB/Magic Hub``` have been mounted as ```read-only```
