@@ -140,9 +140,3 @@ Found the bottom of the rabbit hole
 <empty>
 u64@u64-VirtualBox:~/Desktop$
 ```
-
-```sh
-```
-
-```sh
-```
