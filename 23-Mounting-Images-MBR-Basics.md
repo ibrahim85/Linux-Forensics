@@ -71,6 +71,9 @@ root@u64-VirtualBox:/home/u64/Desktop#
 
 Fix for the above error
 
+```-t``` takes the following arguments ```ext2, ext3, ext4, xfs, btrfs, vfat, sysfs, proc, nfs and cifs```
+
+
 ```sh
 root@u64-VirtualBox:/home/u64/Desktop# mount -o ro,loop,offset=8192,noatime -t proc 2015-3-9.img part0/
 root@u64-VirtualBox:/home/u64/Desktop#
