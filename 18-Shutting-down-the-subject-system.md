@@ -10,6 +10,10 @@
 - Memory image already collected
 
 
+```sync```
+
+- Synchronize cached writes to persistent storage
+
 ```sh
 u64@ubuntu64:~$ sync
 ```
