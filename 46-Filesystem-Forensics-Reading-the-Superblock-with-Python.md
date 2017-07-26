@@ -371,7 +371,7 @@ Command (m for help): q
 u64@u64-VirtualBox:~/Desktop$
 ```
 
-###### Read superblock from an image file
+###### Read superblock from an image file using ```extfs.py```
 
 ```sh
 u64@u64-VirtualBox:~/Desktop$ ./extfs.py
