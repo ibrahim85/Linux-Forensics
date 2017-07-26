@@ -337,7 +337,6 @@ mysql> show databases;
 +--------------------+
 5 rows in set (0.00 sec)
 
-mysql>
 mysql> use case-2015-3-9;
 Reading table information for completion of table and column names
 You can turn off this feature to get a quicker startup with -A
