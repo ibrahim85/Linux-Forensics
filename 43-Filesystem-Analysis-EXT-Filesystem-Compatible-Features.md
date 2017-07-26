@@ -212,3 +212,7 @@ Group: 127:
   Stored Checksum: 0x9227
 u64@u64-VirtualBox:~/Desktop$
 ```
+
+###### [```Structure of SuperBlock```](http://elixir.free-electrons.com/linux/latest/source/fs/ext4/ext4.h)
+
+![Image of SuperBlock](images/43/2.png)
