@@ -65,6 +65,8 @@ u64@u64-VirtualBox:/media/part0$
 
 ###### Identify Anomaly
 
+- Print ```inodes```
+
 ```sh
 u64@u64-VirtualBox:/media/part0$ ls -lahi bin/ | sort -n
 total 11M
@@ -228,6 +230,8 @@ total 11M
 657109 -rwxr-xr-x  1 root root 9.5K Mar 12  2015 xingyi_rootshell
 u64@u64-VirtualBox:/media/part0$
 ```
+
+- Sort
 
 ```sh
 u64@u64-VirtualBox:/media/part0$ ls -lahi sbin/ | sort -n
