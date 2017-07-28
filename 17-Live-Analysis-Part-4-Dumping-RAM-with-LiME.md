@@ -3,7 +3,7 @@
 ###### Note
 
 - Do not compile ```LiME``` on the target machine
-- Compile ```LiME``` on a machine an ```identical kernel``` as the target machine
+- Compile ```LiME``` on a machine with an ```identical kernel``` as the target machine
 
 ###### Target Machine
 
