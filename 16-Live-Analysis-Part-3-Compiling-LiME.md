@@ -211,7 +211,7 @@ u64@u64-VirtualBox:~/lkh/trs$ sudo dpkg -i *.deb
 	```
 	
 	```sh
-	u64@u64-VirtualBox:~/Desktop/LiME/src$ mv lime.ko lime-3.16.0-30-generic.ho
+	u64@u64-VirtualBox:~/Desktop/LiME/src$ mv lime.ko lime-3.16.0-30-generic.ko
 	```
 	
 	```sh
@@ -224,7 +224,7 @@ u64@u64-VirtualBox:~/lkh/trs$ sudo dpkg -i *.deb
 	-rw-rw-r-- 1 u64 u64  2557 Jul 28 11:39 disk.c
 	-rw-rw-r-- 1 u64 u64  4080 Jul 28 11:54 disk.o
 	-rw-rw-r-- 1 u64 u64 46272 Jul 28 11:54 .disk.o.cmd
-	-rw-rw-r-- 1 u64 u64 12480 Jul 28 11:54 lime-3.16.0-30-generic.ho
+	-rw-rw-r-- 1 u64 u64 12480 Jul 28 11:54 lime-3.16.0-30-generic.ko
 	-rw-rw-r-- 1 u64 u64 10496 Jul 28 11:40 lime-4.10.0-27-generic.ko
 	-rw-rw-r-- 1 u64 u64  1920 Jul 28 11:39 lime.h
 	-rw-rw-r-- 1 u64 u64   215 Jul 28 11:54 .lime.ko.cmd
