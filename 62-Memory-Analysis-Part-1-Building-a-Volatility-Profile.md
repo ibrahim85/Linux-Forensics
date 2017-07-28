@@ -79,12 +79,22 @@ u64@u64-VirtualBox:~/Desktop/vol-profile$
 u64@u64-VirtualBox:~/Desktop/vol-profile$ ./create-profile.sh /media/part0/
 Version: 3.16.0-30-generic
 /usr/bin/make -C /media/part0//lib/modules/3.16.0-30-generic/build CONFIG_DEBUG_INFO=y M="/home/u64/Desktop/vol-profile" modules
-make[1]: *** /media/part0//lib/modules/3.16.0-30-generic/build: No such file or directory.  Stop.
-Makefile.3.16.0-30-generic:8: recipe for target 'dwarf' failed
-make: *** [dwarf] Error 2
+make[1]: Entering directory '/usr/src/linux-headers-3.16.0-30-generic'
+  CC [M]  /home/u64/Desktop/vol-profile/module.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/u64/Desktop/vol-profile/module.mod.o
+  LD [M]  /home/u64/Desktop/vol-profile/module.ko
+make[1]: Leaving directory '/usr/src/linux-headers-3.16.0-30-generic'
+dwarfdump -di module.ko > module.dwarf
+/usr/bin/make -C /media/part0//lib/modules/3.16.0-30-generic/build M="/home/u64/Desktop/vol-profile" clean
+make[1]: Entering directory '/usr/src/linux-headers-3.16.0-30-generic'
+  CLEAN   /home/u64/Desktop/vol-profile/.tmp_versions
+  CLEAN   /home/u64/Desktop/vol-profile/Module.symvers
+make[1]: Leaving directory '/usr/src/linux-headers-3.16.0-30-generic'
 cp: cannot stat '/media/part0//boot/System.map-{ver}': No such file or directory
 	zip warning: name not matched: System.map-{ver}
-  adding: module.dwarf (deflated 89%)
+updating: module.dwarf (deflated 89%)
 u64@u64-VirtualBox:~/Desktop/vol-profile$
 ```
 
